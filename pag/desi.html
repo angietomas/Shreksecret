@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Secret</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/6e/88/f8/6e88f8aa28c0db6ede78c91f375ef389.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        SherkSecret
+    </header>
+        <div>
+            <p>
+                <textarea class="ingreso" id="mensaje" type="text" placeholder="Ingresa tu mensaje aquí:"></textarea>
+           </p>
+        </div>
+        <img src="../imagenes/libro.png" class="libro">  
+        <div >
+            <p>
+                <textarea class="resultado" id="resultado" placeholder="Aquí aparecerá el resultado"></textarea>
+            </p>
+        </div>
+
+    <div >
+        <input class="contraseña" id="clave" type="number" placeholder="Ingresa tu clave secreta ">
+    </div>
+    <div class="pincipales">
+        <button class="cifrar" onclick="cifrar()">Cifrar</button>
+        <button class="decifrar" onclick="descifrar()">Descifrar</button>
+    </div>
+
+    <div>
+        <button  class="pegar" onclick="pegarDelPortapapeles()">Pegar</button>
+
+        <button class="copiar" onclick="copiarAlPortapapeles()">Copiar</button>
+    </div>
+</body>
+<script src="../js/scrip.js"></script>
+
+</html>

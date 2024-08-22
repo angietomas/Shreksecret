@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Matemasie&display=swap');
+
+header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-family:"Matemasie", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(25, 226, 92);
+    border: 50px green;
+    background-color: green;
+}
+body{
+    margin: 0px;
+    background: url(../imagenes/fondo.gif) ;
+    background-size: 100%;
+
+}
+
+.imagenes{
+    margin: 50px;
+    padding: auto;
+}
+
+.ingreso{
+  margin-top: 60px;
+  margin-left: 223px;
+  width: 250px;
+  height: 350px;
+  padding: 40px;
+  float: left;
+  background-color: rgb(0, 0, 0);
+  border-radius:40px;
+  color: yellow;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 20px;
+  border-color: gold;
+}
+
+.libro{
+    width: 557px;
+    height: 460px;
+    float: right;
+    margin-right: 110px;
+    margin-top: 60px;
+}
+
+.resultado{
+  color: rgb(0, 0, 0);
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 20px;
+  background-color: transparent;
+  float: right;
+  margin-right: -270px;
+  margin-top: 90px;
+  width: 180px;
+  height: 360px;
+  border-color: transparent;
+
+}
+
+
+.texto {
+  position: absolute;
+  width: 42%;
+  height: 60%;
+  left: 12%;
+  top: 15%;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background-color: beige;
+}
+
+.contraseña{
+  margin-left: 290px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+  background-color: white;
+  transform: scale(1.05);
+
+
+}
+
+.cifrar{
+  margin-top: 20px;
+  margin-left: 235px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #08310e;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+
+    background: rgb(104, 230, 66);
+    box-shadow: 0 0 25px rgb(0, 255, 13);
+
+
+    box-shadow: 0 0 5px rgb(9, 224, 117),
+                0 0 25px rgb(10, 214, 54),
+                0 0 50px rgb(110, 236, 120),
+
+}
+.decifrar{
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border: none;
+  font-size: 17px;
+  color: #08310e;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+
+    background: rgb(104, 230, 66);
+    box-shadow: 0 0 25px rgb(0, 255, 13);
+
+
+    box-shadow: 0 0 5px rgb(9, 224, 117),
+                0 0 25px rgb(10, 214, 54),
+                0 0 50px rgb(110, 236, 120),
+
+}
+
+.pegar{
+  float:right;
+  margin-top: -320px;
+  margin-right: 230px;
+  padding: 10px 15px;
+  --key-text-color: #010711;
+  --docsearch-key-shadow: inset 0 -2px 0 0 #e9ca63, inset 0 0 1px 1px #fff,
+    0 1px 2px 1px rgba(235, 216, 112, 0.4);
+  --docsearch-key-gradient: linear-gradient(-225deg, beige,);
+  border: none;
+  background: var(--docsearch-key-gradient);
+  border-radius: 3px;
+  box-shadow: var(--docsearch-key-shadow);
+  color: var(--key-text-color);
+  cursor: pointer;
+  height: 2.5em;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  min-width: 1em;
+  line-height: 1em;
+  user-select: none;
+}
+.copiar{
+  float:right;
+  margin-top: -420px;
+  margin-right: 230px;
+  padding: 10px 15px;
+  --key-text-color: #010711;
+  --docsearch-key-shadow: inset 0 -2px 0 0 #e9ca63, inset 0 0 1px 1px #fff,
+    0 1px 2px 1px rgba(235, 216, 112, 0.4);
+  --docsearch-key-gradient: linear-gradient(-225deg, beige,);
+  border: none;
+  background: var(--docsearch-key-gradient);
+  border-radius: 3px;
+  box-shadow: var(--docsearch-key-shadow);
+  color: var(--key-text-color);
+  cursor: pointer;
+  height: 2.5em;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  min-width: 1em;
+  line-height: 1em;
+  user-select: none;
+}
+
+
+
+
+/* Responsive design */
+@media (max-width: 57.5em) {
+  .container {
+      display: flex;
+      flex-direction: row;
+  }
+
+.encriptar {
+  width: 100%;
+}
+
+.texto {
+  width: 80%;
+  height: 60%;
+  left: 10%;
+  top: 5%;
+}
+
+.terminos {
+  width: 80%;
+  left: 10%;
+  top: 67;
+}
+
+.terminos p {
+  font-size: 16px;
+}
+
+.botones {
+  width: 80%;
+  left: 10%;
+  top: 70%;
+}
+
+.btn-encriptar,
+.btn-desencriptar {
+  width: 40%;
+  border-radius: 16px;
+}
+
+.btn-desencriptar:hover,.btn-desencriptar:hover {
+margin: 0.3;
+width: 47.5%;
+padding: 1.8%;
+}
+
+.encriptado {
+  width: 80%;
+  height: 15%;
+  left: 10%;
+  top: 80%;
+}
+
+.mensaje-encriptado {
+  width: 100%;
+  top: 5%;
+}
+
+.encriptado img {
+  top: 0;
+  display: none;
+  visibility: hidder;
+}
+}
